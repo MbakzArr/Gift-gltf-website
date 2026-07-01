@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GLTF | Cycling for a Change</title>
+<meta name="description" content="Gift Nefolovhodwe is cycling 1783 km from Madombidzha to Cape Town to raise 250 bicycles for the youth. Follow the ride and help.">
+<meta property="og:title" content="Cycling for a Change | 1783 km for 250 bicycles">
+<meta property="og:description" content="Gift built his first bike from scrap. Now he is riding from Madombidzha to Cape Town for 250 bicycles. Follow and help.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://REPLACE-WITH-YOUR-SITE.netlify.app">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="GLTF logo"><b>GLTF</b><span>Cycling for a Change</span></a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="story.html">The Story</a>
+      <a href="contact.html">Contact</a>
+      <a href="donate.html" class="btn btn--green is-cta js-donate">Donate</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero__bg"><img src="assets/hero.jpg" alt="Gift beside the support car on an open Karoo road at sunrise"></div>
+  <div class="hero__inner">
+    <div class="container">
+      <span class="hero__tag">On the road now</span>
+      <h1>1783 km. One old <em>bicycle.</em> One mission.</h1>
+      <p>Gift is riding from his village near Makhado all the way to Cape Town to raise 250 bicycles for young people who walk long distances to school. No sponsor. Just the road.</p>
+      <div class="hero__cta">
+        <a href="donate.html" class="btn btn--green js-donate">Donate</a>
+        <a href="story.html" class="btn btn--outline">Follow the ride</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="statbar">
+  <div class="container"><div class="row">
+    <div class="s"><b>1783</b><span>Kilometres to ride</span></div>
+    <div class="s"><b>250</b><span>Bicycles to raise</span></div>
+    <div class="s"><b>1</b><span>Rider, on his own</span></div>
+  </div></div>
+</div>
+
+<!-- JOURNEY TRACKER -->
+<section class="sec sec--dark">
+  <div class="container">
+    <span class="kicker">Follow the ride</span>
+    <h2 style="margin-bottom:6px">Where Gift is right now</h2>
+    <div class="tracker reveal" style="margin-top:30px">
+      <div class="figs">
+        <div class="fig"><b id="kmCovered">0</b><span>km ridden so far</span></div>
+        <div class="fig"><b id="kmLeft">0</b><span>km left to the sea</span></div>
+        <div class="fig"><b id="pct">0%</b><span>of the road done</span></div>
+      </div>
+      <div class="road">
+        <div class="road__done"></div>
+        <div class="road__bike">
+          <svg viewBox="0 0 64 40" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f0a93b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="14" cy="30" r="9"/><circle cx="50" cy="30" r="9"/>
+            <path d="M14 30 L26 14 L41 14 M26 14 L34 30 H14 M41 14 L50 30 M41 14 L46 9 H52"/>
+          </svg>
+        </div>
+      </div>
+      <div class="road__towns">
+        <span class="road__town start">Madombidzha</span>
+        <span class="road__town mid" style="left:24%">Pretoria</span>
+        <span class="road__town" style="left:49%">Bloemfontein</span>
+        <span class="road__town mid" style="left:61%">Colesberg</span>
+        <span class="road__town mid" style="left:76%">Beaufort West</span>
+        <span class="road__town end">Cape Town</span>
+      </div>
+      <p class="road-note">Last seen <strong id="lastSeen">Free State, near Bloemfontein</strong>. The team updates this as Gift moves.
+        <a href="story.html" style="color:var(--gold);font-weight:700">See where he has been &rarr;</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION -->
+<section class="sec">
+  <div class="container split">
+    <div class="stack reveal">
+      <span class="kicker">The mission</span>
+      <p class="quote">Ride 1783 km to raise funds for <em>250 bicycles</em> for the youth, to keep them off the streets and grow the talent in our communities.</p>
+      <p style="color:var(--stone)">That line is painted on the back of the support car following Gift down the N1. GLTF has been doing this since 2011, when Gift turned a pile of scrap parts into his first bicycle and then into a cycling career.</p>
+      <a href="story.html" class="btn btn--ink">Read his story</a>
+    </div>
+    <div class="split__media reveal">
+      <img src="assets/the-bike.jpg" alt="The Giant mountain bike Gift is riding to Cape Town">
+      <div class="badge"><b>Est. 2011</b><span>Madombidzha, Limpopo</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="sec sec--dark" style="padding-top:0;background:var(--cream)">
+  <div class="container">
+    <div class="impact reveal">
+      <div class="i"><b>2011</b><span>Foundation started</span></div>
+      <div class="i"><b>10+</b><span>Bikes built from scrap</span></div>
+      <div class="i"><b>1783</b><span>km this ride</span></div>
+      <div class="i"><b>250</b><span>Bicycle goal</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ALONG THE WAY -->
+<section class="sec sec--sand">
+  <div class="container">
+    <span class="kicker">Along the way</span>
+    <h2 style="margin-bottom:8px">South Africa is riding with him</h2>
+    <p class="lead" style="margin-bottom:30px">From petrol stations to roadside stops, people keep stepping out to greet Gift and cheer him on.</p>
+    <div class="gallery reveal">
+      <figure class="wide" style="aspect-ratio:16/9"><img src="assets/ride-karoo.jpg" alt="Gift riding through the open road"><figcaption>On the road through the Free State</figcaption></figure>
+      <figure><img src="assets/spar-support.jpg" alt="A supporter with Gift at a SPAR"><figcaption>Welcomed at a SPAR stop</figcaption></figure>
+      <figure><img src="assets/freestate.jpg" alt="Gift crossing into the Free State"><figcaption>Crossing into the Free State</figcaption></figure>
+      <figure class="wide" style="aspect-ratio:16/9"><img src="assets/western-cape-sign.jpg" alt="Gift at the Western Cape border sign"><figcaption>Into the Western Cape</figcaption></figure>
+      <figure><img src="assets/capetown-535.jpg" alt="Gift pointing at the N1 sign showing Cape Town 535 km"><figcaption>Cape Town, 535 km to go</figcaption></figure>
+      <figure><img src="assets/bw-sign-youth.jpg" alt="Young riders at the Beaufort West sign"><figcaption>Young riders join in at Beaufort West</figcaption></figure>
+    </div>
+    <div style="margin-top:26px"><a href="story.html" class="btn btn--green">See the full story</a></div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="sec sec--dark">
+  <div class="container">
+    <span class="kicker">From the road</span>
+    <h2 style="margin-bottom:24px">Moments from the journey</h2>
+    <div class="clips reveal">
+      <div class="clip"><span class="clip__tag">From the road</span><video src="assets/ride-road.mp4" poster="assets/ride-road-poster.jpg" controls preload="none" playsinline></video></div>
+      <div class="clip"><span class="clip__tag">From the road</span><video src="assets/ride-fog.mp4" poster="assets/ride-fog-poster.jpg" controls preload="none" playsinline></video></div>
+      <div class="clip"><span class="clip__tag">From the road</span><video src="assets/ride.mp4" poster="assets/ride-poster.jpg" controls preload="none" playsinline></video></div>
+      <div class="clip"><span class="clip__tag">On the road today</span><video src="assets/ride-wc-1.mp4" poster="assets/ride-wc-1-poster.jpg" controls preload="none" playsinline></video></div>
+      <div class="clip"><span class="clip__tag">On the road today</span><video src="assets/ride-wc-4.mp4" poster="assets/ride-wc-4-poster.jpg" controls preload="none" playsinline></video></div>
+      <div class="clip"><span class="clip__tag">On the road today</span><video src="assets/ride-wc-5.mp4" poster="assets/ride-wc-5-poster.jpg" controls preload="none" playsinline></video></div>
+    </div>
+  </div>
+</section>
+
+<!-- HELP -->
+<section class="sec">
+  <div class="container">
+    <span class="kicker">How to help</span>
+    <h2 style="margin-bottom:30px">Three ways to get a child on a bicycle</h2>
+    <div class="help reveal">
+      <div class="item feature">
+        <span class="tagword">Give</span>
+        <h3>Donate money</h3>
+        <p>Every rand goes toward buying and fixing bicycles for youth who need them.</p>
+        <a href="donate.html" class="btn btn--green js-donate">Donate</a>
+      </div>
+      <div class="item">
+        <span class="tagword">Donate a bike</span>
+        <h3>Give a bicycle</h3>
+        <p>Old or new, working or for parts. We collect what comes in and fix it for a learner.</p>
+        <a href="donate.html" class="btn btn--ink">How it works</a>
+      </div>
+      <div class="item">
+        <span class="tagword">Share</span>
+        <h3>Share the ride</h3>
+        <p>The biggest help costs nothing. Share this with someone who can give ten bicycles, or a hundred.</p>
+        <a href="#" class="btn btn--ink js-share">Share this page</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="cols">
+      <div>
+        <a class="brand" href="index.html"><img src="assets/logo.png" alt="GLTF logo"><b>GLTF</b> <span>Cycling for a Change</span></a>
+        <p>Gifted Local Talent Foundation. Putting bicycles in the hands of youth in remote villages of South Africa.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/gift.mpho.1671897/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13 22v-9h3l.5-3.5H13V7.3c0-1 .3-1.7 1.8-1.7H17V2.5C16.6 2.4 15.4 2.3 14 2.3c-2.9 0-4.9 1.8-4.9 5v2.2H6V13h3.1v9H13z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3zm6.8-11.1a1.5 1.5 0 1 1-1.5-1.5 1.5 1.5 0 0 1 1.5 1.5z"/></svg></a>
+          <a href="https://www.tiktok.com/@giftmpho053" target="_blank" rel="noopener" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.5 2c.3 2.1 1.5 3.6 3.5 3.8v2.4c-1.2.1-2.3-.3-3.5-1v6.7c0 3.4-2.6 5.8-5.8 5.8a5.6 5.6 0 0 1-5.7-5.7c0-3.3 2.8-5.9 6.4-5.5v2.6c-.4-.1-.9-.2-1.3-.2a3 3 0 0 0 .1 6c1.7 0 2.9-1.3 2.9-3.1V2h3z"/></svg></a>
+          <a href="#" class="js-whatsapp" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-2.8.8.7-2.7-.2-.3A8 8 0 1 1 12 20zm4.5-5.9c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.5.1-.6.8-.8 1-.3.2-.5 0a6.5 6.5 0 0 1-1.9-1.2 7.3 7.3 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.6 4 5.3 5.3 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="story.html">The Story</a></li><li><a href="donate.html">Donate</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Reach us</h4><ul><li><a href="tel:+27787912679">+27 78 791 2679</a></li><li><a href="mailto:gftmph@gmail.com">gftmph@gmail.com</a></li><li>Madombidzha, Makhado, Limpopo</li></ul></div>
+    </div>
+    <div class="foot-bottom"><span>&copy; <span id="year"></span> Gifted Local Talent Foundation</span><span>You have the power to bring happiness</span></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
